@@ -6,7 +6,7 @@
 //  Copyright (c) 2019 ZhaoBingDong. All rights reserved.
 //
 
-#import "MTJSONModel.h"
+#import <MTJSONModel/MTJSONModel.h>
 #import "MTViewController.h"
 
 @interface MTViewController ()
