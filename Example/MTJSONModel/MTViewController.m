@@ -6,10 +6,20 @@
 //  Copyright (c) 2019 ZhaoBingDong. All rights reserved.
 //
 
+#import "MTJSONModel.h"
 #import "MTViewController.h"
 
 @interface MTViewController ()
 
+@end
+
+
+@interface User : JSONModel
+{
+	
+}
+///SSS
+@property (nonatomic,copy) NSString *SS;
 @end
 
 @implementation MTViewController
@@ -17,7 +27,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)didReceiveMemoryWarning
