@@ -9,10 +9,10 @@ s.description      = <<-DESC
 JSONMOdel 的静态库 framework 提高编译速度.
 DESC
 
-s.homepage         = 'https://github.com/ZhaoBingDong/MTJSONModel'
+s.homepage         = 'https://github.com/BestiOSDev/MTJSONModel'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'ZhaoBingDong' => 'dzb8818082@163.com' }
-s.source           = { :git => 'https://github.com/ZhaoBingDong/MTJSONModel.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/BestiOSDev/MTJSONModel.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '8.0'
 
