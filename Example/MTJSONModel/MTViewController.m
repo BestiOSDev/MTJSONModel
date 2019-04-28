@@ -6,16 +6,14 @@
 //  Copyright (c) 2019 ZhaoBingDong. All rights reserved.
 //
 
-#import <MTJSONModel/MTJSONModel.h>
 #import "MTViewController.h"
+#import <MTJSONModel/MTJSONModel.h>
 
 @interface MTViewController ()
 
 @end
 
-
-@interface User : JSONModel
-{
+@interface User : JSONModel {
 	
 }
 ///SSS

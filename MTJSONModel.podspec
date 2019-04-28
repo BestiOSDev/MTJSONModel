@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'MTJSONModel'
-s.version          = '0.1.1'
+s.version          = '0.1.2'
 s.summary          = 'MTJSONModel.Framework'
 
 s.description      = <<-DESC
@@ -18,7 +18,7 @@ s.ios.deployment_target = '8.0'
 
 if ENV['IS_SOURCE']
 s.source_files = 'MTJSONModel/Classes/**/*{h,m}'
-s.public_header_files = 'MTJSONModel/Classes/**/*.h'
+s.public_header_files = 'MTJSONModel/Classes/Public/**/*.h'
 else
 s.ios.vendored_frameworks = 'MTJSONModel/Framework/MTJSONModel.framework'
 end
