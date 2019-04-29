@@ -40,17 +40,17 @@ typedef NSString *(^JSONModelKeyMapBlock)(NSString *keyName);
 @interface JSONKeyMapper : NSObject
 
 // deprecated
-@property (readonly, nonatomic) JSONModelKeyMapBlock JSONToModelKeyBlock DEPRECATED_ATTRIBUTE;
+//@property (readonly, nonatomic) JSONModelKeyMapBlock JSONToModelKeyBlock DEPRECATED_ATTRIBUTE;
 - (NSString *)convertValue:(NSString *)value isImportingToModel:(BOOL)importing DEPRECATED_MSG_ATTRIBUTE("use convertValue:");
-- (instancetype)initWithDictionary:(NSDictionary *)map DEPRECATED_MSG_ATTRIBUTE("use initWithModelToJSONDictionary:");
-- (instancetype)initWithJSONToModelBlock:(JSONModelKeyMapBlock)toModel modelToJSONBlock:(JSONModelKeyMapBlock)toJSON DEPRECATED_MSG_ATTRIBUTE("use initWithModelToJSONBlock:");
-+ (instancetype)mapper:(JSONKeyMapper *)baseKeyMapper withExceptions:(NSDictionary *)exceptions DEPRECATED_MSG_ATTRIBUTE("use baseMapper:withModelToJSONExceptions:");
-+ (instancetype)mapperFromUnderscoreCaseToCamelCase DEPRECATED_MSG_ATTRIBUTE("use mapperForSnakeCase:");
-+ (instancetype)mapperFromUpperCaseToLowerCase DEPRECATED_ATTRIBUTE;
+//- (instancetype)initWithDictionary:(NSDictionary *)map DEPRECATED_MSG_ATTRIBUTE("use initWithModelToJSONDictionary:");
+//- (instancetype)initWithJSONToModelBlock:(JSONModelKeyMapBlock)toModel modelToJSONBlock:(JSONModelKeyMapBlock)toJSON DEPRECATED_MSG_ATTRIBUTE("use initWithModelToJSONBlock:");
+//+ (instancetype)mapper:(JSONKeyMapper *)baseKeyMapper withExceptions:(NSDictionary *)exceptions DEPRECATED_MSG_ATTRIBUTE("use baseMapper:withModelToJSONExceptions:");
+//+ (instancetype)mapperFromUnderscoreCaseToCamelCase DEPRECATED_MSG_ATTRIBUTE("use mapperForSnakeCase:");
+//+ (instancetype)mapperFromUpperCaseToLowerCase DEPRECATED_ATTRIBUTE;
 
 /** @name Name converters */
 /** Block, which takes in a property name and converts it to the corresponding JSON key name */
-@property (readonly, nonatomic) JSONModelKeyMapBlock modelToJSONKeyBlock;
+//@property (readonly, nonatomic) JSONModelKeyMapBlock modelToJSONKeyBlock;
 
 /** Combined converter method
  * @param value the source name
@@ -85,7 +85,7 @@ typedef NSString *(^JSONModelKeyMapBlock)(NSString *keyName);
 /**
  * Given a camelCase model property, this mapper finds JSON keys using the TitleCase equivalent.
  */
-+ (instancetype)mapperForTitleCase;
+//+ (instancetype)mapperForTitleCase;
 
 /**
  * Creates a JSONKeyMapper based on a built-in JSONKeyMapper, with specific exceptions.
