@@ -1,0 +1,6 @@
+framework module Pods_MTJSONModel_Tests {
+  umbrella header "Pods-MTJSONModel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

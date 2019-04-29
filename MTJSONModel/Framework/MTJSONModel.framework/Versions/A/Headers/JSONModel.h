@@ -18,13 +18,13 @@ lastPathComponent], __LINE__, [NSString stringWithFormat:(s), ##__VA_ARGS__] )
 #endif
 /////////////////////////////////////////////////////////////////////////////////////////////
 
-DEPRECATED_ATTRIBUTE
-@protocol ConvertOnDemand
-@end
+//DEPRECATED_ATTRIBUTE
+//@protocol ConvertOnDemand
+//@end
 
-DEPRECATED_ATTRIBUTE
-@protocol Index
-@end
+//DEPRECATED_ATTRIBUTE
+//@protocol Index
+//@end
 
 #pragma mark - Property Protocols
 /**
@@ -139,7 +139,7 @@ DEPRECATED_ATTRIBUTE
  * Overwrite in your models if your property names don't match your JSON key names.
  * Lookup JSONKeyMapper docs for more details.
  */
-+ (JSONKeyMapper *)keyMapper;
+//+ (JSONKeyMapper *)keyMapper;
 
 /**
  * Indicates the class used for the elements of a collection property.

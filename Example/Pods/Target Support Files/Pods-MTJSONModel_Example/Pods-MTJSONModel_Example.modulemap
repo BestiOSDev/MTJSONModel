@@ -1,0 +1,6 @@
+framework module Pods_MTJSONModel_Example {
+  umbrella header "Pods-MTJSONModel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

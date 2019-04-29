@@ -67,7 +67,7 @@ typedef NSString *(^JSONModelKeyMapBlock)(NSString *keyName);
  * The block takes in a string and returns the transformed (if at all) string.
  * @param toJSON transforms your model property name to a JSON key
  */
-- (instancetype)initWithModelToJSONBlock:(JSONModelKeyMapBlock)toJSON;
+//- (instancetype)initWithModelToJSONBlock:(JSONModelKeyMapBlock)toJSON;
 
 /**
  * Creates a JSONKeyMapper instance, based on the mapping you provide.
@@ -80,7 +80,7 @@ typedef NSString *(^JSONModelKeyMapBlock)(NSString *keyName);
 /**
  * Given a camelCase model property, this mapper finds JSON keys using the snake_case equivalent.
  */
-+ (instancetype)mapperForSnakeCase;
+//+ (instancetype)mapperForSnakeCase;
 
 /**
  * Given a camelCase model property, this mapper finds JSON keys using the TitleCase equivalent.
@@ -91,6 +91,6 @@ typedef NSString *(^JSONModelKeyMapBlock)(NSString *keyName);
  * Creates a JSONKeyMapper based on a built-in JSONKeyMapper, with specific exceptions.
  * Use your JSONModel property names as keys, and the JSON key names as values.
  */
-+ (instancetype)baseMapper:(JSONKeyMapper *)baseKeyMapper withModelToJSONExceptions:(NSDictionary *)toJSON;
+//+ (instancetype)baseMapper:(JSONKeyMapper *)baseKeyMapper withModelToJSONExceptions:(NSDictionary *)toJSON;
 
 @end

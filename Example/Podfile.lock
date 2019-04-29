@@ -1,0 +1,16 @@
+PODS:
+  - MTJSONModel (0.1.1)
+
+DEPENDENCIES:
+  - MTJSONModel (from `../`)
+
+EXTERNAL SOURCES:
+  MTJSONModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTJSONModel: e7188cc71fb0ad1baf4d5706315f97f86af225e8
+
+PODFILE CHECKSUM: f5bd98ce34dafa8e0665f0c606621d87d30fbc26
+
+COCOAPODS: 1.5.3
