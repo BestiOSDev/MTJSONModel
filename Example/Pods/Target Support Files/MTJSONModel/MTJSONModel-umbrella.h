@@ -12,9 +12,6 @@
 
 #import "JSONModel.h"
 #import "JSONModelError.h"
-#import "JSONAPI.h"
-#import "JSONHTTPClient.h"
-#import "JSONModel+networking.h"
 #import "JSONKeyMapper.h"
 #import "JSONValueTransformer.h"
 #import "MTJSONModel.h"

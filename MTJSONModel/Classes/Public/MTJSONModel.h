@@ -2,32 +2,20 @@
 //  MTJSONModel.h
 //  MTJSONModel
 //
+//  Created by dzb on 2019/6/20.
+//  Copyright © 2019 大兵布莱恩特. All rights reserved.
+//
 
-#import <Foundation/Foundation.h>
-//! Project version number for DSDWebImage.
+#import <UIKit/UIKit.h>
+
+//! Project version number for MTJSONModel.
 FOUNDATION_EXPORT double MTJSONModelVersionNumber;
 
-//! Project version string for DSDWebImage.
+//! Project version string for MTJSONModel.
 FOUNDATION_EXPORT const unsigned char MTJSONModelVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <DSDWebImage/PublicHeader.h>
-
-// core
 #import "JSONModel.h"
 #import "JSONModelError.h"
-
-// transformations
 #import "JSONValueTransformer.h"
 #import "JSONKeyMapper.h"
-
-// networking (deprecated)
-#import "JSONHTTPClient.h"
-#import "JSONModel+networking.h"
-#import "JSONAPI.h"
-
-
-//UIImageView+HighlightedWebCache.h
-
-
-
 

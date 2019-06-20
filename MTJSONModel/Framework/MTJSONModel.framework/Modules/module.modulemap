@@ -1,6 +1,0 @@
-framework module MTJSONModel {
-  umbrella header "MTJSONModel.h"
-
-  export *
-  module * { export * }
-}
