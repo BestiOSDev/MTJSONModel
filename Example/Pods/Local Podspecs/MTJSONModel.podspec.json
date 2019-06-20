@@ -1,6 +1,6 @@
 {
   "name": "MTJSONModel",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "summary": "MTJSONModel.Framework",
   "description": "JSONMOdel 的静态库 framework 提高编译速度.",
   "homepage": "https://github.com/BestiOSDev/MTJSONModel",
@@ -13,10 +13,10 @@
   },
   "source": {
     "git": "https://github.com/BestiOSDev/MTJSONModel.git",
-    "tag": "0.1.1"
+    "tag": "0.1.3"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
   "source_files": "MTJSONModel/Classes/**/*{h,m}",
   "public_header_files": "MTJSONModel/Classes/Public/**/*.h",

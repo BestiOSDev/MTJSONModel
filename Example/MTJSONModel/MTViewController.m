@@ -18,6 +18,7 @@
 }
 ///SSS
 @property (nonatomic,copy) NSString *SS;
+
 @end
 
 @implementation MTViewController
