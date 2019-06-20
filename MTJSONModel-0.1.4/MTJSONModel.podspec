@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "MTJSONModel"
-  s.version = "0.1.3"
+  s.version = "0.1.4"
   s.summary = "MTJSONModel.Framework"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"ZhaoBingDong"=>"dzb8818082@163.com"}

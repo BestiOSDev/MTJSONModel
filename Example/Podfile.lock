@@ -1,5 +1,5 @@
 PODS:
-  - MTJSONModel (0.1.3)
+  - MTJSONModel (0.1.4)
 
 DEPENDENCIES:
   - MTJSONModel (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MTJSONModel: 61442febb8c73ba3e7e6ec1f67fb37bc6004c68a
+  MTJSONModel: 621ccbebea3afdc5766c7eeadf9a0eb1e92db93a
 
 PODFILE CHECKSUM: 1f7dc2eeda053ff2f2ed52ef9e90c319798bf5ad
 
